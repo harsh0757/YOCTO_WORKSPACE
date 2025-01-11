@@ -15,3 +15,8 @@ do_install() {
     install -d ${D}/${bindir}
     install -m 0755 ${S}/example1 ${D}/${bindir}
 }
+
+# **PN_PV_PR.bb
+# format of WORKDIR
+# PN/PV-PR
+# S = WORKDIR/PN-PV
